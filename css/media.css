@@ -1,0 +1,51 @@
+@media (min-width: 992px) {
+  nav .nav-item:not(.dropdown) .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      var(--color-primary),
+      var(--color-secondary)
+    );
+    transition: width 0.3s ease-in-out;
+  }
+
+  nav .nav-item:not(.dropdown) .nav-link.active::after {
+    width: 100%;
+  }
+  nav .nav-item:not(.dropdown) .nav-link.active{
+    color: var(--color-primary);
+  }
+
+  .btn-outline-light {
+    --bs-btn-border-color: transparent;
+  }
+}
+
+
+
+
+/* Bootstrap lg */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 15px !important;
+  }
+}
+
+/* Bootstrap md */
+@media (max-width: 767.98px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+/* Bootstrap sm */
+@media (max-width: 575.98px) {
+  html {
+    font-size: 13px !important;
+  }
+}
