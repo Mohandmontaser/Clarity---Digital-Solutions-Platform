@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clarity - Digital Solutions Platform</title>
-    <link rel="icon" href="./images/favicon.png">
+    <link rel="icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -12,11 +12,10 @@
   </head>
   <body class="text-capitalize" data-bs-spy="scroll" data-bs-target="#navId">
     <!-- ===== START: Navbar ===== -->
-
-    <header class="fixed-top border-1 border border-gray-100 z-3 bg-white">
+    <header class="fixed-top border-1 border-bottom z-3 bg-white">
       <nav
         id="navId"
-        class="navbar navbar-expand-lg navbar-dark bg-color-secondary py-3 border-header"
+        class="navbar navbar-expand-lg navbar-dark py-3 border-header"
       >
         <div class="container">
           <div class="navbar-brand me-5 d-flex gap-12 align-items-center">
@@ -49,12 +48,10 @@
             <ul
               class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-lg-center gap-32 row-gap-4 row-gap-lg-0"
             >
-              <!-- Home -->
-              <li class="nav-item position-relative">
-                <a class="nav-link fw-medium active" href="#hero">Home</a>
+              <li class="nav-item position-relative fw-medium">
+                <a class="nav-link active" href="#hero">Home</a>
               </li>
 
-              <!-- Services -->
               <li
                 class="d-none d-lg-block nav-item dropdown position-relative fw-medium"
               >
@@ -69,10 +66,9 @@
                 </button>
 
                 <div
-                  class="dropdown-menu d-block opacity-0 shadow-2xl bg-white full-width border-gray-100 max-w-6xl rounded-16 p-32 mt-2"
+                  class="dropdown-menu d-block opacity-0 shadow-2xl bg-white full-width border max-w-6xl rounded-16 p-32 mt-2"
                 >
                   <div class="row g-4">
-                    
                     <div class="col-lg-4">
                       <h6 class="text-uppercase fw-bold fs-6 text-primary mb-3">
                         Development
@@ -139,7 +135,6 @@
                       </a>
                     </div>
 
-                    
                     <div class="col-lg-4">
                       <h6 class="text-uppercase fw-bold fs-6 text-primary mb-3">
                         Infrastructure & AI
@@ -206,7 +201,6 @@
                       </a>
                     </div>
 
-                    
                     <div class="col-lg-4">
                       <h6 class="text-uppercase fw-bold fs-6 text-primary mb-3">
                         Marketing
@@ -257,14 +251,14 @@
                       >
                         <h6 class="fw-bold">Need help choosing?</h6>
 
-                        <p class="text-gray-500 fw-normal small mb-3">
+                        <p class="text-gray-500 small fw-normal mb-3">
                           Talk to our experts to find the perfect solution for
                           your business.
                         </p>
 
                         <a
                           href="#"
-                          class="text-primary fw-semibold text-decoration-none"
+                          class="contact-us text-primary fw-semibold text-decoration-none"
                         >
                           Contact us →
                         </a>
@@ -273,10 +267,10 @@
                   </div>
                 </div>
               </li>
-              
-              <li class="nav-item d-lg-none mobile-menu">
+
+              <li class="nav-item d-lg-none mobile-menu fw-medium">
                 <button
-                  class="btn border-0 nav-link w-100 px-0 d-flex justify-content-between align-items-center"
+                  class="collapse-mobile btn border-0 nav-link w-100 px-0 d-flex justify-content-between align-items-center"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#mobileServices"
@@ -292,7 +286,6 @@
                   id="mobileServices"
                 >
                   <div class="row gy-3 rounded-16">
-                    
                     <div class="col-12 col-md-6">
                       <h6 class="text-uppercase fw-bold fs-6 text-primary mb-3">
                         Development
@@ -359,7 +352,6 @@
                       </a>
                     </div>
 
-                    
                     <div class="col-12 col-md-6">
                       <h6 class="text-uppercase fw-bold fs-6 text-primary mb-3">
                         Infrastructure & AI
@@ -426,7 +418,6 @@
                       </a>
                     </div>
 
-                    
                     <div class="col-12 col-md-6">
                       <h6 class="text-uppercase fw-bold fs-6 text-primary mb-3">
                         Marketing
@@ -473,7 +464,6 @@
                       </a>
                     </div>
 
-                    
                     <div class="col-12 col-md-6 d-flex">
                       <div
                         class="help-box bg-gradient-light-primary p-3 rounded-12 border border-1 w-100 align-self-start"
@@ -497,38 +487,34 @@
                 </div>
               </li>
 
-              
-              <li class="nav-item position-relative">
+              <li class="nav-item position-relative fw-medium">
                 <a class="nav-link" href="#technology">Technology</a>
               </li>
 
-              
-              <li class="nav-item position-relative">
+              <li class="nav-item position-relative fw-medium">
                 <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
 
-              
-              <li class="nav-item position-relative">
+              <li class="nav-item position-relative fw-medium">
                 <a class="nav-link" href="#faq">FAQ </a>
               </li>
 
-              
-              <li class="nav-item position-relative">
-                <a class="nav-link" href="#contact">Contact Us</a>
+              <li class="nav-item position-relative fw-medium">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
 
             <div class="d-flex flex-column flex-lg-row gap-2 pt-3 pt-lg-0">
               <button
                 type="button"
-                class="btn btn-outline-light py-2 px-4 fw-bold rounded-5"
+                class="btn btn-outline-light py-2 px-4 fw-medium rounded-5"
               >
                 Sign In
               </button>
 
               <button
                 type="button"
-                class="btn btn-primary py-2 px-4 fw-bold rounded-5 bg-linear-to-right-pr-sec border-0 btn-primary-hover-box-shadow"
+                class="btn btn-primary py-12 px-32 fw-bold rounded-5 bg-linear-to-right-pr-sec border-0 btn-primary-hover-box-shadow me-3"
               >
                 Get Started
               </button>
@@ -540,14 +526,13 @@
     <!-- ===== END: Navbar ===== -->
 
     <main>
+      <!-- ===== START: hero section ===== -->
       <section id="hero" class="hero-section section-bg-linear">
         <div class="container">
-          <div class="row gy-5 gy-lg-0 m-0 align-items-center pt-3">
+          <div class="row gy-5 gy-lg-0 m-0 align-items-center pt-5">
             <div class="hero-content col-12 col-lg-7">
               <div class="mb-32">
-                <div
-                  class="badge rounded-pill text-primary bg-gradient-light-primary mb-4 py-2 px-3 fs-14 fw-medium"
-                >
+                <div class="badge bg-gradient-light-primary">
                   <i class="fa-solid fa-rocket"></i>
                   <span>Transforming Digital Experiences</span>
                 </div>
@@ -590,7 +575,7 @@
                 </button>
               </div>
 
-              <div class="d-flex align-items-center gap-32 pt-32">
+              <div class="stats d-flex align-items-center gap-32 pt-32">
                 <div class="text-center">
                   <div class="fs-30 fw-bold text-primary">500+</div>
                   <div class="text-gray-600">Projects Delivered</div>
@@ -612,7 +597,7 @@
                   class="hero-bg position-absolute inset bg-primary bg-opacity-25 rotate-3 rounded-24"
                 ></div>
 
-                <div
+                <figure
                   class="bg-white p-32 position-relative rounded-24 shadow-2xl"
                 >
                   <img
@@ -620,10 +605,10 @@
                     alt="modern digital workspace with multiple screens showing web development, mobile apps, and analytics dashboards"
                     class="w-100 h-auto rounded-24"
                   />
-                </div>
+                </figure>
 
                 <div
-                  class="position-absolute shadow-lg w-20 h-20 d-flex align-items-center justify-content-center -right-6 -top-6 bg-linear-to-right-bottom-accent-pr rounded-12 text-white"
+                  class="position-absolute shadow-lg w-24 h-24 d-flex align-items-center justify-content-center -right-6 -top-6 bg-linear-to-right-bottom-accent-pr rounded-12 text-white"
                 >
                   <i class="fa-solid fa-code"></i>
                 </div>
@@ -638,19 +623,22 @@
           </div>
         </div>
       </section>
+      <!-- ===== END: hero section ===== -->
 
+      <!-- ===== START: services section ===== -->
       <section id="services" class="services-section section-p">
         <div class="container">
           <header class="header-section text-center">
-            <span
-              class="badge rounded-pill text-primary bg-gradient-light-primary mb-4 py-2 px-3 text-primary fs-14 fw-medium"
-            >
+            <span class="badge bg-gradient-light-primary">
               <i class="fa-solid fa-gears me-2"></i>
 
               Our Services
             </span>
             <h2 class="header-title text-dark mb-4">
-              Comprehensive <span class="bg-clip">Digital Solutions</span>
+              Comprehensive
+              <span class="bg-linear-to-right-pr-sec bg-clip"
+                >Digital Solutions</span
+              >
             </h2>
             <p class="text-gray-600 mx-auto fs-5">
               From concept to deployment, we provide end-to-end digital services
@@ -674,15 +662,15 @@
                 </p>
 
                 <ul class="list-unstyled mb-4">
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     React & Next.js Development
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     E-commerce Solutions
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Progressive Web Apps
                   </li>
@@ -712,15 +700,15 @@
                 </p>
 
                 <ul class="list-unstyled mb-4">
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     iOS & Android Development
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     React Native & Flutter
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     App Store Optimization
                   </li>
@@ -751,15 +739,15 @@
                 </p>
 
                 <ul class="list-unstyled mb-4">
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     AWS & Azure Integration
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     DevOps & CI/CD
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Microservices Architecture
                   </li>
@@ -792,15 +780,15 @@
                 </p>
 
                 <ul class="list-unstyled mb-4">
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Predictive Analytics
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Natural Language Processing
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Computer Vision
                   </li>
@@ -831,15 +819,15 @@
                 </p>
 
                 <ul class="list-unstyled mb-4">
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     SEO & SEM Optimization
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Social Media Management
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Content Strategy
                   </li>
@@ -869,15 +857,15 @@
                 </p>
 
                 <ul class="list-unstyled mb-4">
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     User Research & Testing
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Wireframing & Prototyping
                   </li>
-                  <li class="mb-2 fs-14">
+                  <li class="mb-2 small">
                     <i class="fa-solid fa-check me-2 text-primary"></i>
                     Design Systems
                   </li>
@@ -895,19 +883,22 @@
           </div>
         </div>
       </section>
+      <!-- ===== END: services section ===== -->
 
+      <!-- ===== START: technology section ===== -->
       <section id="technology" class="nav-tabs-section section-p">
         <div class="container">
           <header class="header-section text-center">
-            <span
-              class="badge rounded-pill text-primary bg-gradient-light-primary mb-4 py-2 px-3 text-primary fs-14 fw-medium"
-            >
+            <span class="badge bg-gradient-light-primary">
               <i class="fa-solid fa-gear me-2"></i>
 
               Technology Stack
             </span>
             <h2 class="header-title text-dark mb-4">
-              Cutting-Edge <span class="bg-clip">Technologies</span>
+              Cutting-Edge
+              <span class="bg-linear-to-right-pr-sec bg-clip"
+                >Technologies</span
+              >
             </h2>
             <p class="text-gray-600 mx-auto fs-5">
               We leverage the latest technologies and frameworks to build
@@ -915,7 +906,7 @@
             </p>
           </header>
 
-          <div class="max-width-72rem mx-auto">
+          <div class="max-w-6xl mx-auto">
             <ul
               class="nav nav-tabs justify-content-center mb-5"
               id="myTab"
@@ -1326,7 +1317,7 @@
 
                     <div class="col-md-6 col-lg-4 d-flex">
                       <div
-                        class="bg-red-gradient technology-card w-100 w-100 p-32 rounded-16"
+                        class="bg-red-gradient technology-card w-100 p-32 rounded-16"
                       >
                         <div
                           class="bg-red-600 fs-4 d-flex align-items-center justify-content-center w-16 h-16 mb-4 text-white rounded-16"
@@ -1678,7 +1669,6 @@
                       </div>
                     </div>
 
-                    
                     <div class="col-md-6 col-lg-4 d-flex">
                       <div
                         class="bg-orange-gradient technology-card w-100 p-32 rounded-16"
@@ -2057,7 +2047,6 @@
                       </div>
                     </div>
 
-                    
                     <div class="col-md-6 col-lg-4 d-flex">
                       <div
                         class="bg-red-gradient technology-card w-100 p-32 rounded-16"
@@ -2132,7 +2121,6 @@
                       </div>
                     </div>
 
-                    
                     <div class="col-md-6 col-lg-4 d-flex">
                       <div
                         class="bg-purple-gradient technology-card w-100 p-32 rounded-16"
@@ -2172,7 +2160,6 @@
                       </div>
                     </div>
 
-                    
                     <div class="col-md-6 col-lg-4 d-flex">
                       <div
                         class="bg-indigo-gradient technology-card w-100 p-32 rounded-16"
@@ -2216,19 +2203,20 @@
           </div>
         </div>
       </section>
+      <!-- ===== END: technology section ===== -->
 
+      <!-- ===== START: testimonials section ===== -->
       <section id="testimonials" class="section-p section-bg-linear">
         <div class="container">
           <header class="header-section text-center">
-            <span
-              class="badge rounded-pill text-primary bg-gradient-light-primary mb-4 py-2 px-3 text-primary fs-14 fw-medium"
-            >
+            <span class="badge bg-gradient-light-primary">
               <i class="fa-solid fa-heart"></i>
 
               Client Testimonials
             </span>
             <h2 class="header-title text-dark mb-4">
-              What Our <span class="bg-clip">Clients Say</span>
+              What Our
+              <span class="bg-linear-to-right-pr-sec bg-clip">Clients Say</span>
             </h2>
             <p class="text-gray-600 mx-auto fs-5">
               Don't just take our word for it. Here's what our clients have to
@@ -2265,13 +2253,13 @@
                               <i class="fa-solid fa-star"></i>
                               <i class="fa-solid fa-star"></i>
                             </div>
-                            <span class="text-gray-700 fs-14 fw-medium"
+                            <span class="text-gray-700 small fw-medium"
                               >5.0 Rating</span
                             >
                           </div>
                         </div>
                         <div
-                          class="bg-gradient-light-primary py-2 px-3 text-primary fs-14 fw-semibold rounded-pill w-fit"
+                          class="bg-gradient-light-primary py-2 px-3 text-primary small fw-semibold rounded-pill w-fit"
                         >
                           <span>
                             <i class="fa-solid fa-circle-check me-2"></i>
@@ -2281,12 +2269,12 @@
                       </div>
 
                       <div class="mb-32">
-                        <p class="text-gray-700 fs-5">
+                        <blockquote class="text-gray-700 fs-5 m-0">
                           "Clarity transformed our entire digital presence.
                           Their team's expertise and dedication resulted in a
                           300% increase in our online sales. Absolutely
                           phenomenal work!"
-                        </p>
+                        </blockquote>
                       </div>
                       <div class="divider mb-32"></div>
 
@@ -2296,9 +2284,9 @@
                         <div
                           class="d-flex flex-column flex-md-row align-items-center gap-3"
                         >
-                          <div class="position-relative">
+                          <figure class="position-relative">
                             <img
-                              src="images/avatar-1-CwUcGkzI.jpg "
+                              src="images/avatar-1-CwUcGkzI.jpg"
                               class="w-20 h-20 object-fit-cover avatar rounded-circle"
                               alt="Portrait of Eslam Salah, CTO, FinanceFlow"
                             />
@@ -2307,14 +2295,14 @@
                             >
                               <i class="fa-solid fa-check text-white fs-12"></i>
                             </div>
-                          </div>
+                          </figure>
 
                           <div>
                             <h5 class="text-dark m-0 fw-bold fs-18">
                               Eslam Salah
                             </h5>
                             <p class="m-0 text-gray-600">CTO, FinanceFlow</p>
-                            <span class="fs-14">
+                            <span class="small">
                               <i
                                 class="fa-brands fa-linkedin me-1 text-primary"
                               ></i
@@ -2331,7 +2319,7 @@
                               300%
                             </span>
                           </div>
-                          <span class="fw-medium fs-14 text-gray-600"
+                          <span class="fw-medium small text-gray-600"
                             >Growth</span
                           >
                         </div>
@@ -2363,13 +2351,13 @@
                               <i class="fa-solid fa-star"></i>
                               <i class="fa-solid fa-star"></i>
                             </div>
-                            <span class="text-gray-700 fs-14 fw-medium"
+                            <span class="text-gray-700 small fw-medium"
                               >5.0 Rating</span
                             >
                           </div>
                         </div>
                         <div
-                          class="bg-gradient-light-primary py-2 px-3 text-primary fs-14 fw-semibold rounded-pill w-fit"
+                          class="bg-gradient-light-primary py-2 px-3 text-primary small fw-semibold rounded-pill w-fit"
                         >
                           <span>
                             <i class="fa-solid fa-circle-check me-2"></i>
@@ -2379,12 +2367,12 @@
                       </div>
 
                       <div class="mb-32">
-                        <p class="text-gray-700 fs-5">
+                        <blockquote class="text-gray-700 fs-5 m-0">
                           "The telemedicine platform they built for us has
                           revolutionized how we serve our patients. The
                           security, reliability, and user experience are all
                           top-notch."
-                        </p>
+                        </blockquote>
                       </div>
                       <div class="divider mb-32"></div>
 
@@ -2394,9 +2382,9 @@
                         <div
                           class="d-flex flex-column flex-md-row align-items-center gap-3"
                         >
-                          <div class="position-relative">
+                          <figure class="position-relative">
                             <img
-                              src="images/avatar-2-DvihTPKl.jpg "
+                              src="images/avatar-2-DvihTPKl.jpg"
                               class="w-20 h-20 object-fit-cover avatar rounded-circle"
                               alt="Portrait of Dr. Michael Chen, CTO, Director, MedCare"
                             />
@@ -2405,14 +2393,14 @@
                             >
                               <i class="fa-solid fa-check text-white fs-12"></i>
                             </div>
-                          </div>
+                          </figure>
 
                           <div>
                             <h5 class="text-dark m-0 fw-bold fs-18">
                               Dr. Michael Chen
                             </h5>
                             <p class="m-0 text-gray-600">Director, MedCare</p>
-                            <span class="fs-14">
+                            <span class="small">
                               <i
                                 class="fa-brands fa-linkedin me-1 text-primary"
                               ></i
@@ -2429,7 +2417,7 @@
                               100K+
                             </span>
                           </div>
-                          <span class="fw-medium fs-14 text-gray-600">
+                          <span class="fw-medium small text-gray-600">
                             Patients
                           </span>
                         </div>
@@ -2460,13 +2448,13 @@
                               <i class="fa-solid fa-star"></i>
                               <i class="fa-solid fa-star"></i>
                             </div>
-                            <span class="text-gray-700 fs-14 fw-medium"
+                            <span class="text-gray-700 small fw-medium"
                               >5.0 Rating</span
                             >
                           </div>
                         </div>
                         <div
-                          class="bg-gradient-light-primary py-2 px-3 text-primary fs-14 fw-semibold rounded-pill w-fit"
+                          class="bg-gradient-light-primary py-2 px-3 text-primary small fw-semibold rounded-pill w-fit"
                         >
                           <span>
                             <i class="fa-solid fa-circle-check me-2"></i>
@@ -2476,12 +2464,11 @@
                       </div>
 
                       <div class="mb-32">
-                        <p class="text-gray-700 fs-5">
-                          "The telemedicine platform they built for us has
-                          revolutionized how we serve our patients. The
-                          security, reliability, and user experience are all
-                          top-notch."
-                        </p>
+                        <blockquote class="text-gray-700 fs-5 m-0">
+                          "Working with Clarity was a game-changer. Their mobile
+                          banking app exceeded all our expectations and has
+                          processed over $1 billion in transactions."
+                        </blockquote>
                       </div>
                       <div class="divider mb-32"></div>
 
@@ -2491,9 +2478,9 @@
                         <div
                           class="d-flex flex-column flex-md-row align-items-center gap-3"
                         >
-                          <div class="position-relative">
+                          <figure class="position-relative">
                             <img
-                              src="images/avatar-3-MKRsHcFc.jpg "
+                              src="images/avatar-3-MKRsHcFc.jpg"
                               class="w-20 h-20 object-fit-cover avatar rounded-circle"
                               alt="Eslam Salah , CTO, FinanceFlow"
                             />
@@ -2502,14 +2489,14 @@
                             >
                               <i class="fa-solid fa-check text-white fs-12"></i>
                             </div>
-                          </div>
+                          </figure>
 
-                          <div class="">
+                          <div>
                             <h5 class="text-dark m-0 fw-bold fs-18">
                               Eslam Salah
                             </h5>
                             <p class="m-0 text-gray-600">CTO, FinanceFlow</p>
-                            <span class="fs-14">
+                            <span class="small">
                               <i
                                 class="fa-brands fa-linkedin me-1 text-primary"
                               ></i
@@ -2526,7 +2513,7 @@
                               $1B+
                             </span>
                           </div>
-                          <span class="fw-medium fs-14 text-gray-600"
+                          <span class="fw-medium small text-gray-600"
                             >Processed</span
                           >
                         </div>
@@ -2558,14 +2545,14 @@
                               <i class="fa-solid fa-star"></i>
                               <i class="fa-solid fa-star"></i>
                             </div>
-                            <span class="text-gray-700 fs-14 fw-medium"
+                            <span class="text-gray-700 small fw-medium"
                               >5.0 Rating</span
                             >
                           </div>
                         </div>
 
                         <div
-                          class="bg-gradient-light-primary py-2 px-3 text-primary fs-14 fw-semibold rounded-pill w-fit"
+                          class="bg-gradient-light-primary py-2 px-3 text-primary small fw-semibold rounded-pill w-fit"
                         >
                           <span>
                             <i class="fa-solid fa-circle-check me-2"></i>
@@ -2575,12 +2562,12 @@
                       </div>
 
                       <div class="mb-32">
-                        <p class="text-gray-700 fs-5">
+                        <blockquote class="text-gray-700 fs-5 m-0">
                           "The AI-powered analytics dashboard they created has
                           given us insights we never had before. Our
                           decision-making process has become so much more
                           data-driven and effective."
-                        </p>
+                        </blockquote>
                       </div>
 
                       <div class="divider mb-32"></div>
@@ -2591,7 +2578,7 @@
                         <div
                           class="d-flex flex-column flex-md-row align-items-center gap-3"
                         >
-                          <div class="position-relative">
+                          <figure class="position-relative">
                             <img
                               src="images/avatar-4-CDQD_dyw.jpg"
                               class="w-20 h-20 object-fit-cover avatar rounded-circle"
@@ -2603,7 +2590,7 @@
                             >
                               <i class="fa-solid fa-check text-white fs-12"></i>
                             </div>
-                          </div>
+                          </figure>
 
                           <div>
                             <h5 class="text-dark m-0 fw-bold fs-18">
@@ -2614,7 +2601,7 @@
                               VP of Operations, TechCorp
                             </p>
 
-                            <span class="fs-14">
+                            <span class="small">
                               <i
                                 class="fa-brands fa-linkedin me-1 text-primary"
                               ></i>
@@ -2632,7 +2619,7 @@
                             </span>
                           </div>
 
-                          <span class="fw-medium fs-14 text-gray-600">
+                          <span class="fw-medium small text-gray-600">
                             Insights
                           </span>
                         </div>
@@ -2664,14 +2651,14 @@
                               <i class="fa-solid fa-star"></i>
                               <i class="fa-solid fa-star"></i>
                             </div>
-                            <span class="text-gray-700 fs-14 fw-medium"
+                            <span class="text-gray-700 small fw-medium"
                               >5.0 Rating</span
                             >
                           </div>
                         </div>
 
                         <div
-                          class="bg-gradient-light-primary py-2 px-3 text-primary fs-14 fw-semibold rounded-pill w-fit"
+                          class="bg-gradient-light-primary py-2 px-3 text-primary small fw-semibold rounded-pill w-fit"
                         >
                           <span>
                             <i class="fa-solid fa-circle-check me-2"></i>
@@ -2681,11 +2668,11 @@
                       </div>
 
                       <div class="mb-32">
-                        <p class="text-gray-700 fs-5">
+                        <blockquote class="text-gray-700 fs-5 m-0">
                           "Their cloud migration service was flawless. Zero
                           downtime, improved performance, and significant cost
                           savings. The team's expertise is unmatched."
-                        </p>
+                        </blockquote>
                       </div>
 
                       <div class="divider mb-32"></div>
@@ -2696,7 +2683,7 @@
                         <div
                           class="d-flex flex-column flex-md-row align-items-center gap-3"
                         >
-                          <div class="position-relative">
+                          <figure class="position-relative">
                             <img
                               src="images/avatar-4-CDQD_dyw.jpg"
                               class="w-20 h-20 object-fit-cover avatar rounded-circle"
@@ -2708,7 +2695,7 @@
                             >
                               <i class="fa-solid fa-check text-white fs-12"></i>
                             </div>
-                          </div>
+                          </figure>
 
                           <div>
                             <h5 class="text-dark m-0 fw-bold fs-18">
@@ -2719,7 +2706,7 @@
                               IT Director, GlobalTech
                             </p>
 
-                            <span class="fs-14">
+                            <span class="small">
                               <i
                                 class="fa-brands fa-linkedin me-1 text-primary"
                               ></i>
@@ -2737,7 +2724,7 @@
                             </span>
                           </div>
 
-                          <span class="fw-medium fs-14 text-gray-600">
+                          <span class="fw-medium small text-gray-600">
                             Downtime
                           </span>
                         </div>
@@ -2789,19 +2776,20 @@
           </div>
         </div>
       </section>
+      <!-- ===== END: testimonials section ===== -->
 
+      <!-- ===== START: faq section ===== -->
       <section id="faq" class="section-p">
         <div class="container">
           <header class="header-section text-center">
-            <span
-              class="badge rounded-pill text-primary bg-gradient-light-primary mb-4 py-2 px-3 text-primary fs-14 fw-medium"
-            >
+            <span class="badge bg-gradient-light-primary">
               <i class="fa-solid fa-circle-question"></i>
 
               FAQ
             </span>
             <h2 class="header-title text-dark mb-4">
-              Frequently Asked <span class="bg-clip">Questions</span>
+              Frequently Asked
+              <span class="bg-linear-to-right-pr-sec bg-clip">Questions</span>
             </h2>
             <p class="text-gray-600 mx-auto fs-5">
               Find answers to common questions about our services, process, and
@@ -3097,19 +3085,21 @@
           </div>
         </div>
       </section>
+      <!-- ===== END: faq section ===== -->
 
+      <!-- ===== START: contact section ===== -->
       <section id="contact" class="section-p section-bg-linear">
         <div class="container">
           <header class="header-section text-center">
-            <span
-              class="badge rounded-pill text-primary bg-primary bg-opacity-10 mb-4 py-2 px-3 text-primary fs-14 fw-medium"
-            >
+            <span class="badge bg-gradient-light-primary">
               <i class="fa-solid fa-gears me-2"></i>
 
               Our Services
             </span>
             <h2 class="header-title-contact font-72 text-dark mb-4">
-              Ready to <br /><span class="bg-clip">Transform?</span>
+              Ready to <br /><span class="bg-linear-to-right-pr-sec bg-clip"
+                >Transform?</span
+              >
             </h2>
             <p class="text-gray-600 mx-auto fs-5">
               Take the first step towards digital excellence. Our experts are
@@ -3131,11 +3121,11 @@
                     </p>
                   </div>
 
-                  <form class="row gr-32">
+                  <form method="post" class="row gr-32">
                     <div class="col-md-6">
                       <label
                         for="firstName"
-                        class="form-label text-gray-800 fs-14 fw-semibold"
+                        class="form-label text-gray-800 small fw-semibold"
                       >
                         First Name *
                       </label>
@@ -3152,7 +3142,7 @@
                     <div class="col-md-6">
                       <label
                         for="lastName"
-                        class="form-label text-gray-800 fs-14 fw-semibold"
+                        class="form-label text-gray-800 small fw-semibold"
                       >
                         Last Name *
                       </label>
@@ -3169,7 +3159,7 @@
                     <div class="col-md-6">
                       <label
                         for="email"
-                        class="form-label text-gray-800 fs-14 fw-semibold"
+                        class="form-label text-gray-800 small fw-semibold"
                       >
                         Email Address *
                       </label>
@@ -3186,7 +3176,7 @@
                     <div class="col-md-6">
                       <label
                         for="company"
-                        class="form-label text-gray-800 fs-14 fw-semibold"
+                        class="form-label text-gray-800 small fw-semibold"
                       >
                         Company
                       </label>
@@ -3202,7 +3192,7 @@
                     <div class="col-12">
                       <label
                         for="interest"
-                        class="form-label text-gray-800 fs-14 fw-semibold"
+                        class="form-label text-gray-800 small fw-semibold"
                       >
                         Primary Interest
                       </label>
@@ -3231,105 +3221,111 @@
                     </div>
                     <div class="col-12">
                       <label
-                        for="tmeline"
-                        class="form-label text-gray-800 fs-14 fw-semibold"
+                        for="timeline"
+                        class="form-label text-gray-800 small fw-semibold"
                       >
                         Timeline
                       </label>
 
-                      <select id="tmeline" name="tmeline" class="form-select">
+                      <select id="timeline" name="timeline" class="form-select">
                         <option selected disabled>
                           When do you want to start?
                         </option>
                         <option value="immediately">Immediately</option>
                         <option value="within-1-month">Within 1 month</option>
-                        <option value="within-3-months">Within 6 months</option>
-                        <option value="within-6-months">within-6-months</option>
+                        <option value="within-3-months">Within 3 months</option>
+                        <option value="within-6-months">within 6 months</option>
                         <option value="exploring-options">
                           Just exploring options
                         </option>
                       </select>
                     </div>
                     <div class="col-md-12">
-                      <label
-                        class="text-gray-800 fw-semibold d-block mb-12 fs-14"
-                      >
-                        Project Budget Range
-                      </label>
+                      <fieldset class="border-0 p-0 m-0">
+                        <legend
+                          class="text-gray-800 fw-semibold d-block mb-12 small"
+                        >
+                          Project Budget Range
+                        </legend>
 
-                      <div class="row gy-3 gy-lg-0">
-                        <div class="col-md-4">
-                          <label
-                            for="budget-growth"
-                            class="budget-card d-block"
-                          >
-                            <input
-                              type="radio"
-                              id="budget-growth"
-                              name="budget"
-                              value="25k-50k"
-                              class="sr-only d-block p-0 position-absolute overflow-hidden"
-                            />
-
-                            <div
-                              class="card-content p-3 text-center rounded-16"
+                        <div class="row gy-3 gy-lg-0">
+                          <div class="col-md-4">
+                            <label
+                              for="budget-growth"
+                              class="budget-card d-block"
                             >
-                              <div class="title fw-semibold">$25K - $50K</div>
-                              <div class="text-gray-500 fs-14">Growth</div>
-                            </div>
-                          </label>
-                        </div>
+                              <input
+                                type="radio"
+                                id="budget-growth"
+                                name="budget"
+                                value="25k-50k"
+                                class="sr-only d-block p-0 position-absolute overflow-hidden"
+                              />
 
-                        <div class="col-md-4">
-                          <label
-                            for="budget-business"
-                            class="budget-card d-block"
-                          >
-                            <input
-                              type="radio"
-                              id="budget-business"
-                              name="budget"
-                              value="50k-100k"
-                              class="sr-only d-block p-0 position-absolute overflow-hidden"
-                            />
+                              <div
+                                class="card-content border p-3 text-center rounded-16"
+                              >
+                                <div class="title fw-semibold">$25K - $50K</div>
+                                <div class="text-gray-500 small">Growth</div>
+                              </div>
+                            </label>
+                          </div>
 
-                            <div
-                              class="card-content p-3 text-center rounded-16"
+                          <div class="col-md-4">
+                            <label
+                              for="budget-business"
+                              class="budget-card d-block"
                             >
-                              <div class="title fw-semibold">$50K - $100K</div>
-                              <div class="text-gray-500 fs-14">Business</div>
-                            </div>
-                          </label>
-                        </div>
+                              <input
+                                type="radio"
+                                id="budget-business"
+                                name="budget"
+                                value="50k-100k"
+                                class="sr-only d-block p-0 position-absolute overflow-hidden"
+                              />
 
-                        <div class="col-md-4">
-                          <label
-                            for="budget-enterprise"
-                            class="budget-card d-block"
-                          >
-                            <input
-                              type="radio"
-                              id="budget-enterprise"
-                              name="budget"
-                              value="100k-plus"
-                              class="sr-only d-block p-0 position-absolute overflow-hidden"
-                            />
+                              <div
+                                class="card-content border p-3 text-center rounded-16"
+                              >
+                                <div class="title fw-semibold">
+                                  $50K - $100K
+                                </div>
+                                <div class="text-gray-500 small">Business</div>
+                              </div>
+                            </label>
+                          </div>
 
-                            <div
-                              class="card-content p-3 text-center rounded-16"
+                          <div class="col-md-4">
+                            <label
+                              for="budget-enterprise"
+                              class="budget-card d-block"
                             >
-                              <div class="title fw-semibold">$100K+</div>
-                              <div class="text-gray-500 fs-14">Enterprise</div>
-                            </div>
-                          </label>
+                              <input
+                                type="radio"
+                                id="budget-enterprise"
+                                name="budget"
+                                value="100k-plus"
+                                class="sr-only d-block p-0 position-absolute overflow-hidden"
+                              />
+
+                              <div
+                                class="card-content border p-3 text-center rounded-16"
+                              >
+                                <div class="title fw-semibold">$100K+</div>
+                                <div class="text-gray-500 small">
+                                  Enterprise
+                                </div>
+                              </div>
+                            </label>
+                          </div>
                         </div>
-                      </div>
+                      </fieldset>
                     </div>
 
                     <div class="col-md-12">
                       <label
                         for="projectDescription"
-                        class="form-label text-gray-800 fw-semibold d-block mb-12 fs-14"
+                        class="form-label text-gray-800 fw-semibold d-block mb-12 small"
                       >
                         Tell us about your project
                       </label>
@@ -3338,7 +3334,7 @@
                         id="projectDescription"
                         name="projectDescription"
                         rows="5"
-                        class="py-3 px-20 bg-gray-100 border-transparent border border-2 d-block w-100 rounded-16"
+                        class="py-3 px-20 bg-gray-100 border w-100 rounded-16"
                         placeholder="Describe your project goals, challenges, and what success looks like for you..."
                       ></textarea>
                     </div>
@@ -3348,16 +3344,16 @@
                         type="checkbox"
                         id="privacyAgreement"
                         name="privacyAgreement"
-                        class="checkbox-input me-12 border-gray-300 h-5 w-5 mt-1"
+                        class="checkbox-input me-12 h-5 w-5 mt-1"
                       />
 
                       <label for="privacyAgreement">
-                        I agree to receive communications and accept the Privacy
+                        I agree to receive communications and accept the
                         <a
                           href="#"
                           class="link-primary text-decoration-none link-underline-opacity-100-hover"
                         >
-                          Policy
+                          Privacy Policy
                         </a>
                       </label>
                     </div>
@@ -3366,6 +3362,8 @@
                       <button
                         type="submit"
                         class="btn w-100 btn-primary-hover text-white py-20 bg-linear-to-right-pr-sec-accent rounded-16 fw-bold"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         <span
                           class="d-flex align-items-center justify-content-center"
@@ -3374,6 +3372,47 @@
                           <i class="fa-solid arrow fa-arrow-right ms-12"></i>
                         </span>
                       </button>
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade"
+                        id="exampleModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3
+                                class="modal-title fs-5"
+                                id="exampleModalLabel"
+                              >
+                                clarity-seven-drab.vercel.app says
+                              </h3>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              Thank you for your message! We'll get back to you
+                              soon
+                            </div>
+                            <div class="modal-footer">
+                              <button
+                                type="button"
+                                class="btn btn-secondary rounded-pill"
+                                data-bs-dismiss="modal"
+                              >
+                                Close
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </form>
                 </div>
@@ -3384,14 +3423,10 @@
                   <div
                     class="position-relative p-5 text-white overflow-hidden h-100 contact-side"
                   >
-                    
-                
-
                     <div class="position-relative">
                       <h4 class="fw-semibold mb-32">Why Choose Clarity?</h4>
 
                       <div class="mb-5">
-                        
                         <div class="d-flex align-items-center mb-32">
                           <div
                             class="icon-box bg-white-20 me-3 w-12 h-12 flex-shrink-0 rounded-12 d-flex align-items-center justify-content-center"
@@ -3403,7 +3438,7 @@
                             <h5 class="fw-semibold fs-6 mb-2">
                               24-Hour Response
                             </h5>
-                            <p class="mb-0 text-white-50 fs-14">
+                            <p class="mb-0 text-white-50 small">
                               Quick turnaround on all inquiries with detailed
                               project analysis
                             </p>
@@ -3422,7 +3457,7 @@
                             <h5 class="fw-semibold fs-6 mb-2">
                               100% Satisfaction
                             </h5>
-                            <p class="mb-0 text-white-50 fs-14">
+                            <p class="mb-0 text-white-50 small">
                               Money-back guarantee if you're not completely
                               satisfied
                             </p>
@@ -3439,7 +3474,7 @@
 
                           <div>
                             <h5 class="fw-semibold fs-6 mb-2">Expert Team</h5>
-                            <p class="mb-0 text-white-50 fs-14">
+                            <p class="mb-0 text-white-50 small">
                               150+ certified professionals with 8+ years
                               experience
                             </p>
@@ -3473,9 +3508,11 @@
           </div>
         </div>
       </section>
+      <!-- ===== END: contact section ===== -->
     </main>
 
-    <footer id="footer" class="bg-white border-top border-gray-200">
+    <!-- ===== START: footer section ===== -->
+    <footer id="footer" class="bg-white border-top">
       <div class="container">
         <div class="py-5">
           <div
@@ -3490,7 +3527,7 @@
                 </div>
                 <span class="fs-5 fw-bold text-gray-900">Clarity</span>
               </div>
-              <p class="text-gray-600 fs-14 max-w-28">
+              <p class="text-gray-600 small max-w-28">
                 Transforming businesses through innovative digital solutions and
                 cutting-edge technology.
               </p>
@@ -3529,9 +3566,9 @@
           </div>
         </div>
 
-        <div class="border-top border-gray-200 py-4">
+        <div class="border-top py-4">
           <div class="d-flex flex-column align-items-center gap-2">
-            <p class="text-gray-600 fs-14 m-0">
+            <p class="text-gray-600 small m-0">
               © 2025 Clarity. All rights reserved.
             </p>
             <div class="d-flex align-items-center gap-1 text-gray-500 fs-12">
@@ -3543,6 +3580,7 @@
         </div>
       </div>
     </footer>
+    <!-- ===== END: footer section ===== -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

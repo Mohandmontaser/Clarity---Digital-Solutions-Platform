@@ -1,4 +1,33 @@
+
+/* ===============================
+   Bootstrap sm (≥576px)
+================================= */
+
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* ===============================
+   Bootstrap md (≥768px)
+================================= */
+
+@media (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* ===============================
+   Bootstrap lg (≥992px)
+================================= */
+
 @media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
   nav .nav-item:not(.dropdown) .nav-link::after {
     content: "";
     position: absolute;
@@ -17,35 +46,14 @@
   nav .nav-item:not(.dropdown) .nav-link.active::after {
     width: 100%;
   }
-  nav .nav-item:not(.dropdown) .nav-link.active{
+
+  nav .nav-item:not(.dropdown) .nav-link.active {
     color: var(--color-primary);
   }
 
   .btn-outline-light {
+    
     --bs-btn-border-color: transparent;
-  }
-}
-
-
-
-
-/* Bootstrap lg */
-@media (max-width: 991.98px) {
-  html {
-    font-size: 15px !important;
-  }
-}
-
-/* Bootstrap md */
-@media (max-width: 767.98px) {
-  html {
-    font-size: 14px !important;
-  }
-}
-
-/* Bootstrap sm */
-@media (max-width: 575.98px) {
-  html {
-    font-size: 13px !important;
+    --bs-btn-hover-border-color: transparent;
   }
 }
